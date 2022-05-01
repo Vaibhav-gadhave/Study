@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+  
+    image: tekfik/chrome:latest
+    container_name: chrome
+   ports:
+      - 3000:3000
+
